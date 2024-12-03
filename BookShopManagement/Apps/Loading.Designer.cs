@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             lblTieuDe = new Label();
-            label2 = new Label();
+            lblLoad = new Label();
             picGd = new PictureBox();
             progressBar1 = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)picGd).BeginInit();
@@ -45,15 +45,15 @@
             lblTieuDe.TabIndex = 0;
             lblTieuDe.Text = "Hệ thống quản lý bán sách";
             // 
-            // label2
+            // lblLoad
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Roboto", 19.8000011F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 405);
-            label2.Name = "label2";
-            label2.Size = new Size(164, 41);
-            label2.TabIndex = 1;
-            label2.Text = "Loading...";
+            lblLoad.AutoSize = true;
+            lblLoad.Font = new Font("Roboto", 19.8000011F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblLoad.Location = new Point(12, 405);
+            lblLoad.Name = "lblLoad";
+            lblLoad.Size = new Size(164, 41);
+            lblLoad.TabIndex = 1;
+            lblLoad.Text = "Loading...";
             // 
             // picGd
             // 
@@ -80,7 +80,7 @@
             ClientSize = new Size(800, 507);
             Controls.Add(progressBar1);
             Controls.Add(picGd);
-            Controls.Add(label2);
+            Controls.Add(lblLoad);
             Controls.Add(lblTieuDe);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Loading";
@@ -95,7 +95,7 @@
         #endregion
 
         private Label lblTieuDe;
-        private Label label2;
+        private Label lblLoad;
         private PictureBox picGd;
         private ProgressBar progressBar1;
     }
