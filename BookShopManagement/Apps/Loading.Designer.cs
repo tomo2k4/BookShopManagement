@@ -86,7 +86,7 @@
             Name = "Loading";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Load += this.Loading_Load;
+            //Load += this.Loading_Load;                                     FIX CÁI NÀY ĐI NÈ!!!!!
             ((System.ComponentModel.ISupportInitialize)picGd).EndInit();
             ResumeLayout(false);
             PerformLayout();
