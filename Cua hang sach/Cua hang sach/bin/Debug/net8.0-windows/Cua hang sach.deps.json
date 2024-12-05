@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Cua hang sach/1.0.0": {
+        "runtime": {
+          "Cua hang sach.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cua hang sach/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
